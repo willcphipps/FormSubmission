@@ -2971,6 +2971,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/williamphipps/Desktop/CodingDojo/CSharp/CSharpMVC/FormSubmission/Views/Home/Success.cshtml",
+      "TargetPath": "Views\\Home\\Success.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/williamphipps/Desktop/CodingDojo/CSharp/CSharpMVC/FormSubmission/Views/Shared/_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
