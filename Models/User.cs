@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System;
 namespace FormSubmission.Models {
     public class User {
         [Required (ErrorMessage = "Name Must be more than 4 characters")]
@@ -8,8 +9,12 @@ namespace FormSubmission.Models {
         [Required (ErrorMessage = "Last name must be more then 4 characters")]
         [MinLength (4)]
         public string LastName { get; set; }
-
         
+        [FutureDate]
+        public DateTime Birthday { get; set; }
+
+
+
         [Required(ErrorMessage="Only Humans!")]
         [Range(0,120)]
         public int Age { get; set; }
